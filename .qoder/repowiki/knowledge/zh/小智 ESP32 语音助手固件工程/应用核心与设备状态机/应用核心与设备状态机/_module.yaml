@@ -1,0 +1,10 @@
+schema_version: 1
+module_path: application_core/application_core
+title: 应用核心与设备状态机
+scope:
+    - main/main.cc
+    - main/application.cc
+    - main/device_state_machine.cc
+source_files: []
+depends_on: []
+related_to: []

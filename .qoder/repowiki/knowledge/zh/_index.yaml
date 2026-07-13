@@ -1,0 +1,94 @@
+# 知识卡导出索引文件
+schema_version: 1
+locale: zh-CN
+branch: main
+nodes_managed: true
+exported_at: "2026-07-06T10:20:06Z"
+modules:
+    "":
+        dir_name: 小智 ESP32 语音助手固件工程
+        title: 小智 ESP32 语音助手固件工程
+        scope:
+            - README.md
+            - CMakeLists.txt
+            - sdkconfig.defaults
+            - .gitignore
+            - .clang-format
+            - LICENSE
+            - README_ja.md
+            - README_zh.md
+            - sdkconfig.defaults.esp32
+            - sdkconfig.defaults.esp32c3
+            - sdkconfig.defaults.esp32c5
+            - sdkconfig.defaults.esp32c6
+            - sdkconfig.defaults.esp32p4
+            - sdkconfig.defaults.esp32s3
+        source_files: []
+        children:
+            - application_core
+            - docs
+            - partitions
+            - scripts
+        depends_on: []
+        related_to: []
+    application_core:
+        dir_name: 应用核心与设备状态机
+        title: 应用核心与设备状态机
+        scope:
+            - main/
+        source_files: []
+        children:
+            - application_core/application_core
+            - application_core/core_services
+        depends_on: []
+        related_to: []
+    application_core/application_core:
+        dir_name: 应用核心与设备状态机
+        title: 应用核心与设备状态机
+        scope:
+            - main/main.cc
+            - main/application.cc
+            - main/device_state_machine.cc
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    application_core/core_services:
+        dir_name: 核心服务层（MCP工具、OTA升级、持久化设置与系统信息）
+        title: 核心服务层（MCP工具、OTA升级、持久化设置与系统信息）
+        scope:
+            - main/mcp_server.cc
+            - main/ota.cc
+            - main/settings.cc
+            - main/system_info.cc
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    docs:
+        dir_name: 项目文档与硬件资料
+        title: 项目文档与硬件资料
+        scope:
+            - docs/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    partitions:
+        dir_name: ESP32 Flash 分区表定义 (v1_v2)
+        title: ESP32 Flash 分区表定义 (v1/v2)
+        scope:
+            - partitions/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []
+    scripts:
+        dir_name: 构建与发布辅助脚本集
+        title: 构建与发布辅助脚本集
+        scope:
+            - scripts/
+        source_files: []
+        children: []
+        depends_on: []
+        related_to: []

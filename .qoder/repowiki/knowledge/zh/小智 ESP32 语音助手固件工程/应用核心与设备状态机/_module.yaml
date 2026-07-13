@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: application_core
+title: 应用核心与设备状态机
+scope:
+    - main/
+source_files: []
+depends_on: []
+related_to: []

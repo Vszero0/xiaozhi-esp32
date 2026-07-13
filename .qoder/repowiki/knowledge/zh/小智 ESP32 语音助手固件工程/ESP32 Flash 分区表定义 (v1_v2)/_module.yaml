@@ -1,0 +1,8 @@
+schema_version: 1
+module_path: partitions
+title: ESP32 Flash 分区表定义 (v1/v2)
+scope:
+    - partitions/
+source_files: []
+depends_on: []
+related_to: []

@@ -1,0 +1,21 @@
+schema_version: 1
+module_path: ""
+title: 小智 ESP32 语音助手固件工程
+scope:
+    - README.md
+    - CMakeLists.txt
+    - sdkconfig.defaults
+    - .gitignore
+    - .clang-format
+    - LICENSE
+    - README_ja.md
+    - README_zh.md
+    - sdkconfig.defaults.esp32
+    - sdkconfig.defaults.esp32c3
+    - sdkconfig.defaults.esp32c5
+    - sdkconfig.defaults.esp32c6
+    - sdkconfig.defaults.esp32p4
+    - sdkconfig.defaults.esp32s3
+source_files: []
+depends_on: []
+related_to: []

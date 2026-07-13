@@ -1,0 +1,11 @@
+schema_version: 1
+module_path: application_core/core_services
+title: 核心服务层（MCP工具、OTA升级、持久化设置与系统信息）
+scope:
+    - main/mcp_server.cc
+    - main/ota.cc
+    - main/settings.cc
+    - main/system_info.cc
+source_files: []
+depends_on: []
+related_to: []
